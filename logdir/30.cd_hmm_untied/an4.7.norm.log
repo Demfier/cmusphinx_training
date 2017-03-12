@@ -1,0 +1,81 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/bwaccumdir/an4_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/means
+-mixwfn			/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/transition_matrices
+-varfn			/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/bwaccumdir/an4_buff_1
+INFO: s3mixw_io.c(117): Read /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/bwaccumdir/an4_buff_1/mixw_counts [4854x4x64 array]
+INFO: s3tmat_io.c(118): Read /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/bwaccumdir/an4_buff_1/tmat_counts [34x3x4 array]
+INFO: s3gau_io.c(386): Read /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/bwaccumdir/an4_buff_1/gauden_counts with means with vars (2pass) [34x4x64 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 34, n_stream= 4, n_density= 64
+WARN: "gauden.c", line 1565: (mgau= 0, feat= 2, density= 63) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 12) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 22) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 29) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 38) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 40) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 46) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 50) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 59) never observed
+WARN: "gauden.c", line 1565: (mgau= 1, feat= 2, density= 63) never observed
+WARN: "gauden.c", line 1565: (mgau= 2, feat= 2, density= 59) never observed
+WARN: "gauden.c", line 1565: (mgau= 3, feat= 2, density= 12) never observed
+WARN: "gauden.c", line 1565: (mgau= 3, feat= 2, density= 34) never observed
+WARN: "gauden.c", line 1565: (mgau= 6, feat= 2, density= 50) never observed
+WARN: "gauden.c", line 1565: (mgau= 7, feat= 2, density= 63) never observed
+WARN: "gauden.c", line 1565: (mgau= 8, feat= 2, density= 38) never observed
+WARN: "gauden.c", line 1565: (mgau= 10, feat= 2, density= 6) never observed
+WARN: "gauden.c", line 1565: (mgau= 12, feat= 2, density= 22) never observed
+WARN: "gauden.c", line 1565: (mgau= 12, feat= 2, density= 59) never observed
+WARN: "gauden.c", line 1565: (mgau= 13, feat= 2, density= 2) never observed
+WARN: "gauden.c", line 1565: (mgau= 13, feat= 2, density= 34) never observed
+WARN: "gauden.c", line 1565: (mgau= 13, feat= 2, density= 42) never observed
+WARN: "gauden.c", line 1565: (mgau= 13, feat= 2, density= 44) never observed
+WARN: "gauden.c", line 1565: (mgau= 13, feat= 2, density= 45) never observed
+WARN: "gauden.c", line 1565: (mgau= 13, feat= 2, density= 46) never observed
+WARN: "gauden.c", line 1565: (mgau= 14, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 14, feat= 2, density= 47) never observed
+WARN: "gauden.c", line 1565: (mgau= 16, feat= 2, density= 34) never observed
+WARN: "gauden.c", line 1565: (mgau= 19, feat= 2, density= 59) never observed
+WARN: "gauden.c", line 1565: (mgau= 20, feat= 2, density= 6) never observed
+WARN: "gauden.c", line 1565: (mgau= 20, feat= 2, density= 7) never observed
+WARN: "gauden.c", line 1565: (mgau= 20, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 21, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 21, feat= 2, density= 59) never observed
+WARN: "gauden.c", line 1565: (mgau= 22, feat= 2, density= 63) never observed
+WARN: "gauden.c", line 1565: (mgau= 23, feat= 2, density= 30) never observed
+WARN: "gauden.c", line 1565: (mgau= 25, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 28, feat= 2, density= 12) never observed
+WARN: "gauden.c", line 1565: (mgau= 28, feat= 2, density= 34) never observed
+WARN: "gauden.c", line 1565: (mgau= 28, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 28, feat= 2, density= 45) never observed
+WARN: "gauden.c", line 1565: (mgau= 32, feat= 2, density= 18) never observed
+WARN: "gauden.c", line 1565: (mgau= 33, feat= 2, density= 30) never observed
+WARN: "gauden.c", line 1565: (mgau= 33, feat= 2, density= 37) never observed
+WARN: "gauden.c", line 1565: (mgau= 33, feat= 2, density= 45) never observed
+WARN: "gauden.c", line 1565: (mgau= 33, feat= 2, density= 63) never observed
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/mixture_weights [4854x4x64 array]
+INFO: s3tmat_io.c(176): Wrote /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/transition_matrices [34x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/means [34x4x64 array]
+INFO: s3gau_io.c(228): Wrote /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_untied/variances [34x4x64 array]
+Sun Mar 12 05:23:56 2017
+Current Overall Likelihood Per Frame = -192.048059763436
+Convergence ratio = 0.114795600746618

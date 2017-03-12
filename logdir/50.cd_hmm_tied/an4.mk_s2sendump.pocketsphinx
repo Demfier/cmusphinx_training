@@ -1,0 +1,22 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-example	no	no
+-help		no	no
+-mixwfn			/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_200/mixture_weights
+-moddeffn		/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_200/mdef
+-mwfloor	0.00001	1.000000e-07
+-pocketsphinx	no	yes
+-sendumpfn		/home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_200/sendump
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 6406 total models defined (34 base, 6372 tri)
+INFO: model_def_io.c(575): 25624 total states
+INFO: model_def_io.c(576): 302 total tied states
+INFO: model_def_io.c(577): 102 total tied CI states
+INFO: model_def_io.c(578): 34 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: senone.c(210): Reading senone mixture weights: /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_200/mixture_weights
+INFO: senone.c(331): Read mixture weights for 302 senones: 4 features x 64 codewords
+INFO: mk_s2sendump.c(207): Writing PocketSphinx format sendump file: /home/gaurav/python-scripts/py/scripts/sphinx-source2/an4/model_parameters/an4.cd_ptm_200/sendump
+Sun Mar 12 05:26:50 2017
