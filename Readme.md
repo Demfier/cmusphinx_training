@@ -68,4 +68,9 @@ Below is the list of errors I faced and how I counterd them.<br>
     Well something similar came to my terminal like last time, but the reason was different. This time, it couldn't find the language model file. On searching my ```etc/``` folder, I found out that the our lm file was present by the name of ```an4.ug.lm.DMP```. Still not sure where that "ug" came from and I would love to know it. All I did was to change the filename to ```an4.lm.DMP``` and it seemed to do the trick.
 
 ## Additional Note:
-If I missed any particular error that you faced while training or if you think my solutions are incorrect, feel free to contact me at [sahu.gaurav719@gmail.com](mailto:sahu.gaurav719@gmail.com) or just open up a new issue!
+Unfortunately, I won't be able to assist with the errors anymore as I am no longer maintaining this repository. You can, however, turn to these resources for help:
+
+- [CMU Sphinx FAQ](https://cmusphinx.github.io/wiki/faq/)
+- [CMU Sphinx Discussion Forum](https://sourceforge.net/p/cmusphinx/discussion/help/)
+- [Sphinx4 Discussion Forum](https://sourceforge.net/p/cmusphinx/discussion/sphinx4/)
+- Some other communication links can be found [here](https://cmusphinx.github.io/wiki/communicate/)
